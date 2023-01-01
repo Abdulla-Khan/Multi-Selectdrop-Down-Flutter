@@ -22,7 +22,7 @@ class MultiSelectDropDownScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(10.0),
                 child: CustomMultiSelectField(
                   items: controller.location[0].data,
-                  title: 'Choose Preffered Locations',
+                  title: 'Choose Preffered Location',
                   onSelectionDone: (value) {
                     controller.selectedLocation = (value);
                   },
